@@ -1,2 +1,2 @@
 # little-penguin
-penguin is made of css
+use in css
