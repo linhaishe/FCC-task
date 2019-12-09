@@ -48,6 +48,13 @@ ul {
     border-radius: 2px;
   }
   
+  /*勾选框左边定位*/
+  .userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
   .radio, .checkbox {
     position: relative;
     left: -43px;
