@@ -1,0 +1,202 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: black;
+    position: relative;
+}
+
+/*div{
+    height: 100px;
+}
+*/
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+a:hover{
+    color: #ccc;
+}
+
+#navId{
+    height: 77px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    font-size:14px;
+    background-color: grey;
+    text-align: center;
+    z-index: 8;
+
+}
+
+#navId ul{
+    height: 77px;
+    background-color: grey;
+    display: inline-block;
+    margin: 0 auto;  
+
+}
+
+#navId ul li{
+    /*width: 20%;*/
+    /*五个列表项，每个宽度设置父元素ul的20%，使其之间间距相同*/
+    height: 77px;
+    line-height: 77px;
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.footermsg ul{
+    display: inline-block;
+    height: 0px;
+    background-color:transparent;
+
+}
+
+.footermsg ul li{
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+
+a:link,a:visited
+{
+font-weight:bold;
+text-decoration:none;
+text-transform:uppercase;
+color: black;
+}
+
+
+.floatLeft{
+float: left;
+}
+
+.floatRight{
+float: right;
+}
+
+#form{
+    text-align: center;
+    position: relative;
+    top: 77px;
+    margin: 0 auto;
+}
+
+.mailbox{
+    width: 265px;
+}
+
+.button{
+    width: 149px;
+    background-color: burlywood;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#features{
+position: relative;
+    top: 134px;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 86px;
+
+}
+
+img{
+    width: 26px;
+    height: 40px;
+    margin-right: 92px;
+}
+
+#video{
+    position: relative;
+    border: chartreuse 10px solid;
+    margin: 0 auto;
+    top: 150px;
+    width: 561px;
+    height: 315px;
+}
+
+#pricing{
+
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:50px;
+
+}
+
+.pricingbox{
+    height: 280px;
+    width: 315px;
+    border: black solid 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-right: 21px;
+    position: relative;
+    margin-top: 250px;
+
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    border: green 5px solid;
+    width: 100%;
+    text-align: center;
+
+}
+
+.pricingbtn{
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+
+}
+
+#footer{
+    margin: 0 auto;
+    text-align: right;
+    /*position: absolute;*/
+    position: relative;
+    bottom: 0px;
+    width: 1050px;
+    height: 100px;
+    border: black solid 3px;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.footermsg{
+border: transparent solid 10px;
+}
+
+.footerp {
+    margin-right: 15px;
+}
+
+
+

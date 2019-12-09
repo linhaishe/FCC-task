@@ -1,21 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="product-landing-page.css">
+
     <title>product landing page</title>
 </head>
+
 <body>
-    <div id="nav"></div>
-    <form></form>
-    <div id="features"></div>
-    <div>vedio</div>
-    <div id="pricing">
-        <div id="tenor"></div>
-        <div id="bass"></div>
-        <div id="valve"></div>
+    <nav id="navId">
+        <div class="floatLeft">
+            <ul>
+                <li>Original Trombones</li>
+            </ul>
+        </div>
+        <div class="floatRight">
+            <ul>
+                <li class="nav-right"><a href="#features">Features</a></li>
+                <li class="nav-right"><a href="#features">How It Works</a></li>
+                <li class="nav-right"><a href="#Pricing">Pricing</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="form">
+        <form>
+            <p>Handcrafted, home-made masterpieces</p>
+            <input class="mailbox" type="email" name="email" placeholder="Enter your email adress..." />
+            <br />
+            <br />
+            <input class="button" type="submit" value="GET STARTED" />
+        </form>
     </div>
-    <div id="footer"></div>
+    <div id="features">
+        <div class="flexbox">
+            <div class="img">
+                <img src="fire.svg" />
+            </div>
+            <div class="text">
+                <p>Premium Materials</p>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
+                    your purchase.</p>
+            </div>
+        </div>
+        <div class="flexbox">
+            <div class="img">
+                <img src="car.svg" />
+            </div>
+            <div class="text">
+                <p>Premium Materials</p>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
+                    your purchase.</p>
+            </div>
+        </div>
+        <div class="flexbox">
+            <div class="img">
+                <img src="electric.svg" />
+            </div>
+            <div class="text">
+                <p>Premium Materials</p>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
+                    your purchase.</p>
+            </div>
+        </div>
+    </div>
+    <div id="video">
+        <video src="https://youtu.be/y8Yv4pnO7qc" poster="fire.svg" controls loop width:="561px" height="315px">
+
+        </video>
+    </div>
+    <div id="pricing">
+        <div id="tenor" class="pricingbox">
+            <div class="title">
+                <p>TENOR TROMBONE</p>
+            </div>
+            <div class="price">
+                <p>$600</p>
+            </div>
+            <div>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+            </div>
+            <div class="pricingbtn">
+                <input class="button" type="submit" value="SELECT" />
+            </div>
+        </div>
+        <div id="tenor" class="pricingbox">
+            <div class="title">
+                <p>TENOR TROMBONE</p>
+            </div>
+            <div class="price">
+                <p>$600</p>
+            </div>
+            <div>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+            </div>
+            <div class="pricingbtn">
+                <input class="button" type="submit" value="SELECT" />
+            </div>
+        </div>
+        <div id="tenor" class="pricingbox">
+            <div class="title">
+                <p>TENOR TROMBONE</p>
+            </div>
+            <div class="price">
+                <p>$600</p>
+            </div>
+            <div>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+            </div>
+            <div class="pricingbtn">
+                <input class="button" type="submit" value="SELECT" />
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+
+        <div class="footermsg">
+            <ul>
+                <li><a href="#">privacy</a></li>
+                <li><a href="#">term</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        <div class="footerp">
+            <p>Copyright 2016, Original Trombones</p>
+        </div>
+    </div>
+
+    </div>
 </body>
+
 </html>
