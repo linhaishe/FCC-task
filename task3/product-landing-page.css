@@ -23,7 +23,7 @@ a:hover{
     color: #ccc;
 }
 
-#navId{
+#nav-bar{
     height: 77px;
     width: 100%;
     position: fixed;
@@ -35,7 +35,13 @@ a:hover{
 
 }
 
-#navId ul{
+#header img{
+    width: 100px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+#nav-bar ul{
     height: 77px;
     background-color: grey;
     display: inline-block;
@@ -43,7 +49,7 @@ a:hover{
 
 }
 
-#navId ul li{
+#nav-bar ul li{
     /*width: 20%;*/
     /*五个列表项，每个宽度设置父元素ul的20%，使其之间间距相同*/
     height: 77px;
@@ -87,7 +93,7 @@ float: left;
 float: right;
 }
 
-#form{
+#formId{
     text-align: center;
     position: relative;
     top: 77px;
@@ -126,7 +132,7 @@ img{
     margin-right: 92px;
 }
 
-#video{
+#videoId{
     position: relative;
     border: chartreuse 10px solid;
     margin: 0 auto;

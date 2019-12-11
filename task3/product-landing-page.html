@@ -11,27 +11,30 @@
 </head>
 
 <body>
-    <nav id="navId">
+    <header id="header">
+    <nav id="nav-bar">
         <div class="floatLeft">
             <ul>
-                <li>Original Trombones</li>
+                <li><img id="header-img" src="xiaohao2.svg"/></li>
+
             </ul>
         </div>
         <div class="floatRight">
             <ul>
-                <li class="nav-right"><a href="#features">Features</a></li>
-                <li class="nav-right"><a href="#features">How It Works</a></li>
-                <li class="nav-right"><a href="#Pricing">Pricing</a></li>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#video">How It Works</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
             </ul>
         </div>
     </nav>
-    <div id="form">
-        <form>
+</header>
+    <div id="formId">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
             <p>Handcrafted, home-made masterpieces</p>
-            <input class="mailbox" type="email" name="email" placeholder="Enter your email adress..." />
+            <input class="mailbox" id="email" type="email" name="email" placeholder="Enter your email adress..." />
             <br />
             <br />
-            <input class="button" type="submit" value="GET STARTED" />
+            <input class="button" id="submit" type="submit" value="GET STARTED" />
         </form>
     </div>
     <div id="features">
@@ -66,8 +69,8 @@
             </div>
         </div>
     </div>
-    <div id="video">
-        <video src="https://youtu.be/y8Yv4pnO7qc" poster="fire.svg" controls loop width:="561px" height="315px">
+    <div id="videoId">
+        <video id="video" src="https://youtu.be/y8Yv4pnO7qc" poster="fire.svg" controls loop width:="561px" height="315px">
 
         </video>
     </div>
@@ -136,9 +139,6 @@
         <div class="footerp">
             <p>Copyright 2016, Original Trombones</p>
         </div>
-    </div>
-
-    </div>
 </body>
 
 </html>
