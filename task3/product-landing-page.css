@@ -41,6 +41,14 @@ a:hover{
     margin: 0 auto;
 }
 
+@media (max-height:800px){
+    #header img{
+        width: 100px;
+        height: 70px;
+        margin: 0 auto;
+    }
+}
+
 #nav-bar ul{
     height: 77px;
     background-color: grey;
