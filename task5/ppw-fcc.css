@@ -18,7 +18,8 @@
   *::after {
     box-sizing: inherit;
   }
-  
+  /*In order to make that reset easier and more intuitive, you can use the inheriting snippet up at the top there, and the inheriting will be preserved.*/
+  /*The inherit keyword specifies that a property should inherit its value from its parent element.*/
   html {
     box-sizing: border-box;
   
