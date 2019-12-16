@@ -25,12 +25,15 @@ header {
 }
 
 .labels {
+  /*labels和rightTab默认为block,会另起一行*/
+  /*区别block和inline-block,inline-block表示还可以同为一行存在，block必须另起一行*/
   display: inline-block;
   text-align: right;
   width: 40%;
   padding: 5px;
+  /*middle会更好*/
   vertical-align: top;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 .rightTab {
