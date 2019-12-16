@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*When you set box-sizing: border-box; on an element, the padding and border of that element no longer increase its width.*/
 
 body {
   background-color: #eee;

@@ -7,10 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="ldp-fcc.css">
 
-  <title>Document</title>
+  <title>ldp-fcc</title>
 </head>
 
 <body>
+  <!--只要导航，都用header包装起来，再用<nav>包装<ul>,<li>-->
   <div id="page-wrapper">
     <header id="header">
       <div class="logo">
@@ -34,6 +35,11 @@
         <input id="submit" type="submit" value="Get Started" class="btn" />
       </form>
     </section>
+    <!--
+
+The section element represents a   generic section of a document or application. A section, in this   context, is a thematic grouping of content, typically with a   heading.Examples of sections would be chapters, the   various tabbed pages in a tabbed dialog box, or the numbered   sections of a thesis. A Web site's home page could be split into   sections for an introduction, news items, and contact   information.Note: Authors are encouraged to use the   article element instead of the section   element when it would make sense to syndicate the contents of the   element.Note: The section   element is not a generic container element. When an element is   needed only for styling purposes or as a convenience for scripting,   authors are encouraged to use the div element instead.   A general rule is that the section element is   appropriate only if the element's contents would be listed   explicitly in the document's outline.-->
+<!--意译如下（【】里面是我的注解）：section元素表示文档或应用的一个部分。所谓“部分”，这里是指按照主题分组的内容区域，通常会带有标题。【也就是每个section对应不同的主题。注意是内容本身的主题，而不是其他人为设定的划分标准。】section的例子包括书的章节回目、多tab对话框的每个tab页、论文以数字编号的小节。网站的主页可能分成介绍、最新内容、联系信息等section。注意：网页作者应使用article而不是section元素，如果其内容是用于聚合（syndicate）。【比如blog首页上的每篇blog。又如论坛帖子的一楼、二楼、三楼……n楼。通常这样的每部分内容形式上是类似的，但是来源是独立的。】注意：section不是通用容器元素。如果仅仅是用于设置样式或脚本处理，应用div元素。一条简单的准则是，只有元素内容会被列在文档大纲中时，才适合用section元素。
+。-->
 
     <div class="container">
       <section id="features">
@@ -74,6 +80,7 @@
         <iframe id="video" height="315"
           src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
           allowfullscreen></iframe>
+          <!--一个内联框架被用来在当前 HTML 文档中嵌入另一个文档。通过使用框架，你可以在同一个浏览器窗口中显示不止一个页面。-->
       </section>
       <section id="pricing">
         <div class="product" id="tenor">
