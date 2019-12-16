@@ -32,6 +32,7 @@ header {
 }
 
 #navbar ul {
+  /*这里设置成100%也是没有问题的，要占据左边的宽度值*/
   height: 88%;
   /*ul 默认是有内边距的，所以内边距要设置为0px*/
   padding: 0;
@@ -43,14 +44,16 @@ header {
   color: #4d4e53;
   border-top: 1px solid;
   list-style: none;
+  /*这里设置relative的作用在于什么？*/
   position: relative;
   width: 100%;
 }
 
 #navbar a {
-  /*a标签是行内元素，不能设置宽高，设置为block后可以设置padding属性*/
+  /*a标签是行内元素，不能设置宽高，设置为block后可以设置padding等宽高属性*/
   display: block;
   /*margin:10px 30px 效果一样*/
+  /*通过padding c处理成居中的效果*/
   padding: 10px 30px;
   color: #4d4e53;
   text-decoration: none;
@@ -97,6 +100,7 @@ code {
 
   #navbar {
     background-color: white;
+    /*绝对定位，脱离文档流，窗口屏幕小*/
     position: absolute;
     top: 0;
     padding: 0;
