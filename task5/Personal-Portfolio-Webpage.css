@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+  /* 重新查下资料,body的设置，未设置0auto,nav会有继承body的外边距 */
+}
+#navbar {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  min-height: 15px;
+  background-color: #be3145;
+  z-index: 1;
+}
+
+#navbar ul {
+  height: 100%;
+  list-style: none;
+  float: right;
+}
+
+#navbar li {
+  position: relative;
+  width: 100%;
+  display: inline;
+}
+
+#navbar a {
+  display: inline;
+  padding: 10px 30px;
+  color: #f0f0f0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#welcome-section {
+  position: relative;
+  height: 500px;
+  background-color: #252527;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-section h2 {
+  color: #be3145;
+}
+
+/* 垂直居中，flexbox*/
