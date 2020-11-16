@@ -188,22 +188,18 @@ footer p {
 
 .fotter-left {
   float: left;
+  margin-left: 40px;
 }
 
 .fotter-right {
   float: right;
+  margin-right: 40px;
 }
 
-/* .fotter-left {
+/* footer p {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-}
-
-.fotter-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: nowrap;
 } */
