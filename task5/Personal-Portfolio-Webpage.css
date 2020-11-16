@@ -149,6 +149,12 @@ body {
 #Contact li {
   position: relative;
   display: inline;
+  margin-right: 20px;
+}
+
+#Contact .fa,
+.fotter-right .fa {
+  margin-right: 10px;
 }
 
 /* #navbar a {
@@ -178,6 +184,14 @@ footer div {
 
 footer p {
   margin-top: 40px;
+}
+
+.fotter-left {
+  float: left;
+}
+
+.fotter-right {
+  float: right;
 }
 
 /* .fotter-left {
